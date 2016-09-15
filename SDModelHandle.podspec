@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SDModelHandle"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A Model handle framework"
 
   s.homepage     = "https://github.com/jisudong555/SDModelHandle"

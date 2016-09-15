@@ -1,5 +1,4 @@
-end
-d::Spec.new do |s|
+Pod::Spec.new do |s|
 
   s.name         = "SDModelHandle"
   s.version      = "0.0.1"

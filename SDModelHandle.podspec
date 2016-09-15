@@ -13,5 +13,9 @@ Pod::Spec.new do |s|
   s.source_files = "SDModelHandle"
   s.requires_arc = true
 
+  s.subspec 'Animal' do |ss|
+    ss.source_files = 'SDModelHandle/SD*.{h,m}'
+  end
+
 end
 

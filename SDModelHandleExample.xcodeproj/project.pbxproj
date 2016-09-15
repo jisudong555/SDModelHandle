@@ -22,6 +22,8 @@
 		153066C01D8A37D500438ACB /* SDTrunk.m in Sources */ = {isa = PBXBuildFile; fileRef = 153066BB1D8A37D500438ACB /* SDTrunk.m */; };
 		153066C31D8A473900438ACB /* SDCarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 153066C21D8A473900438ACB /* SDCarManager.m */; };
 		153066C61D8A476D00438ACB /* JEEDogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 153066C51D8A476D00438ACB /* JEEDogManager.m */; };
+		153066C91D8A48D300438ACB /* SDTrunkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 153066C81D8A48D300438ACB /* SDTrunkManager.m */; };
+		153066CC1D8A494900438ACB /* JEECatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 153066CB1D8A494900438ACB /* JEECatManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,10 @@
 		153066C21D8A473900438ACB /* SDCarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCarManager.m; sourceTree = "<group>"; };
 		153066C41D8A476D00438ACB /* JEEDogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEEDogManager.h; sourceTree = "<group>"; };
 		153066C51D8A476D00438ACB /* JEEDogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JEEDogManager.m; sourceTree = "<group>"; };
+		153066C71D8A48D300438ACB /* SDTrunkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTrunkManager.h; sourceTree = "<group>"; };
+		153066C81D8A48D300438ACB /* SDTrunkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTrunkManager.m; sourceTree = "<group>"; };
+		153066CA1D8A494900438ACB /* JEECatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEECatManager.h; sourceTree = "<group>"; };
+		153066CB1D8A494900438ACB /* JEECatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JEECatManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,8 +183,12 @@
 				153066BB1D8A37D500438ACB /* SDTrunk.m */,
 				153066C11D8A473900438ACB /* SDCarManager.h */,
 				153066C21D8A473900438ACB /* SDCarManager.m */,
+				153066C71D8A48D300438ACB /* SDTrunkManager.h */,
+				153066C81D8A48D300438ACB /* SDTrunkManager.m */,
 				153066C41D8A476D00438ACB /* JEEDogManager.h */,
 				153066C51D8A476D00438ACB /* JEEDogManager.m */,
+				153066CA1D8A494900438ACB /* JEECatManager.h */,
+				153066CB1D8A494900438ACB /* JEECatManager.m */,
 			);
 			path = SDModelHandle;
 			sourceTree = "<group>";
@@ -314,6 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				153066861D8A373D00438ACB /* ViewController.m in Sources */,
+				153066CC1D8A494900438ACB /* JEECatManager.m in Sources */,
+				153066C91D8A48D300438ACB /* SDTrunkManager.m in Sources */,
 				153066C31D8A473900438ACB /* SDCarManager.m in Sources */,
 				153066BC1D8A37D500438ACB /* JEEDog.m in Sources */,
 				153066C61D8A476D00438ACB /* JEEDogManager.m in Sources */,

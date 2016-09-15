@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SDModelHandle"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A Model handle framework"
 
   s.homepage     = "https://github.com/jisudong555/SDModelHandle"
@@ -13,8 +13,16 @@ Pod::Spec.new do |s|
   s.source_files = "SDModelHandle"
   s.requires_arc = true
 
-  s.subspec 'Animal' do |ss|
-    ss.source_files = 'SDModelHandle/SD*.{h,m}'
+  s.subspec 'Car' do |ss|
+    ss.source_files = 'SDModelHandle/SD{Trunk,Car}Manager.{h,m}'
+  end
+  
+  s.subspec 'Jee' do |ss|
+    ss.source_files = 'SDModelHandle/JEE{Cat,Dog}Manager.{h,m}'
+  end
+
+  s.subspec 'Dog' do |ss|
+   ss.source_files = 'SDModelHandle/{JEE,SD}Dog.{h,m}'
   end
 
 end

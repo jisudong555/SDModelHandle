@@ -15,14 +15,17 @@ Pod::Spec.new do |s|
 
   s.subspec 'Car' do |ss|
     ss.source_files = 'SDModelHandle/SD{Trunk,Car}Manager.{h,m}'
+    ss.public_header_files = 'SDModelHandle/SD{Trunk,Car}Manager.h'
   end
   
   s.subspec 'Jee' do |ss|
     ss.source_files = 'SDModelHandle/JEE{Cat,Dog}Manager.{h,m}'
+    ss.public_header_files = 'SDModelHandle/JEE{Cat,Dog}Manager.h'
   end
 
   s.subspec 'Dog' do |ss|
    ss.source_files = 'SDModelHandle/{JEE,SD}Dog.{h,m}'
+   ss.public_header_files = 'SDModelHandle/{JEE,SD}Dog.h'
   end
 
 end
